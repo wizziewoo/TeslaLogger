@@ -6,6 +6,6 @@ providers:
    folder: ''
    type: file
    disableDeletion: false
-   updateIntervalSeconds: 10 #how often Grafana will scan for changed dashboards
+   updateIntervalSeconds: 10 #how often Grafana will scan for changed dashttps://github.com/wizziewoo/TeslaLogger/blob/master/TeslaLogger/GrafanaConfig/sample.yamlhboards
    options:
      path: /var/lib/grafana/dashboards
