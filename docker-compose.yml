@@ -63,4 +63,6 @@ volumes:
     teslalogger-tmp:
         driver: local
         driver_opts:
-            source: /mnt/data/supervisor/share/teslalogger-tmp
+            type: 'none'
+            o: 'bind'
+            device: '/mnt/data/supervisor/share/teslalogger-tmp'
