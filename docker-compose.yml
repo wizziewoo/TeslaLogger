@@ -61,6 +61,6 @@ services:
 
 volumes:
     teslalogger-tmp:
-        driver: host
+        driver: local
         driver_opts:
             source: /mnt/data/supervisor/share/teslalogger-tmp
